@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
 
-const BottomRow = ({quarter}) => {
-
+const BottomRow = ({ quarter }) => {
   // const [quarter, changeQuarter] = useState(1);
 
   return (
@@ -21,7 +20,7 @@ const BottomRow = ({quarter}) => {
       </div>
       <div className="quarter">
         <h3 className="quarter__title">Quarter</h3>
-        <div className="quarter__value"> { quarter } </div>
+        <div className="quarter__value"> {quarter} </div>
       </div>
     </div>
   );
